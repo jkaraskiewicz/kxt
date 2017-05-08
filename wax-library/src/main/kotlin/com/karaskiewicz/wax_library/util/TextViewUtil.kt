@@ -7,6 +7,6 @@ import android.util.TypedValue
 import android.widget.TextView
 import com.karaskiewicz.wax_library.internal.dimen
 
-fun TextView.setTextSizeWithDimen(@DimenRes size: Int) {
+fun TextView.setTextSizeForDimen(@DimenRes size: Int) {
     setTextSize(TypedValue.COMPLEX_UNIT_PX, dimen(size).toFloat())
 }

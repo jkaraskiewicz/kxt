@@ -23,6 +23,6 @@ var View.visible: Boolean
         visibility = if (value) View.VISIBLE else View.GONE
     }
 
-fun View.setPaddingWithDimens(@DimenRes left: Int, @DimenRes top: Int, @DimenRes right: Int, @DimenRes bottom: Int) {
+fun View.setPaddingForDimens(@DimenRes left: Int, @DimenRes top: Int, @DimenRes right: Int, @DimenRes bottom: Int) {
     setPadding(dimen(left), dimen(top), dimen(right), dimen(bottom))
 }
