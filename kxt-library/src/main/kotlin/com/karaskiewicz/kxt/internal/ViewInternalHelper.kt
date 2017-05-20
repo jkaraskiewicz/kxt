@@ -1,4 +1,4 @@
-package com.karaskiewicz.wax_library.internal
+package com.karaskiewicz.kxt.internal
 
 import android.view.View
 

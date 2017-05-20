@@ -1,6 +1,6 @@
 @file:JvmName("ActivityUtil")
 
-package com.karaskiewicz.wax_library.util
+package com.karaskiewicz.kxt.util
 
 import android.content.Intent
 

@@ -1,1 +1,1 @@
-include ':app', ':wax-library'
+include ':app', ':kxt-library'

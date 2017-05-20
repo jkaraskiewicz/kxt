@@ -1,13 +1,13 @@
 @file:JvmName("ViewUtil")
 
-package com.karaskiewicz.wax_library.util
+package com.karaskiewicz.kxt.util
 
 import android.content.Context
 import android.support.annotation.DimenRes
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.karaskiewicz.wax_library.internal.dimen
+import com.karaskiewicz.kxt.internal.dimen
 
 fun ViewGroup.inflate(layoutId: Int, attachToRoot: Boolean = false): View {
     return LayoutInflater.from(context).inflate(layoutId, this, attachToRoot)
